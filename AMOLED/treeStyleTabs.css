@@ -1,0 +1,27 @@
+:root.sidebar #background {
+    background: #000000;
+}
+
+#tabbar tab-item tab-item-substance:not(:hover) tab-closebox {
+    display: none;
+}
+
+tab-item  tab-item-substance {
+    --tab-size: 40px !important;
+    height: var(--tab-size);
+}
+
+tab-item:not(.pinned) tab-item-substance {
+    padding-left: 2px;
+
+.tab .label {
+    margin-left: 11px;
+}
+
+#tabbar { 
+    scrollbar-width: none;
+}
+
+.newtab-button-box {
+    display: none;
+}
